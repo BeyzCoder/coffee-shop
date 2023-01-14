@@ -1,0 +1,23 @@
+# Steven Baes, 11239637
+
+version: '3'
+services: 
+
+    mysql1:
+        image: mysql:5.7.31
+        container_name: coffee-db
+        ports:
+            - "7070:7070"
+        environment: 
+            MYSQL_ROOT_PASSWORD: admin
+            MYSQL_DATABASE: test
+
+    node1:
+        build: ./nodejs-coffee
+        depends_on: 
+            - mysql1
+        container_name: coffee-node
+        ports:
+            - "8080:8080"
+        volumes: 
+            - E:/UofS/Fall2020/CMPT353/Project/partA-build/nodejs-coffee:/usr/src/app/

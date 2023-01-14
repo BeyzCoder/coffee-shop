@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Emoployes</title>
+        
+        <script src="./js/employee.js" async></script>
+        <link rel="stylesheet" href="./css/styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <h2 class="section-header"> KOHI SHOP: EMPLOYEE PAGE </h2>
+        <section class="container list-section">
+            <div class="list-items">
+
+            </div>
+        </section>
+
+        <section class="container edit-section">
+            <p>INSERT: </p>
+            <label for="item_in">Name of the drink: </label>
+            <input type="text" name="item_in" id="item_in" placeholder="drink"><br><br>
+            <label for="price_in">Price of the drink: </label>
+            <input type="text" name="price_in" id="price_in" placeholder="price"><br><br>
+            <label for="picture_in">Picture name: </label>
+            <input type="text" name="picture_in" id="picture_in" placeholder="picture ex .png"><br>
+            <button type="submit" onclick="request_query_insert()"> SUBMIT </button><br>
+
+            <p>DELETE: </p>
+            <label for="item_de">Name of the item: </label>
+            <input type="text" name="item_de" id="item_de" placeholder="drink"><br>
+            <button type="submit" onclick="request_query_delete()"> SUBMIT </button><br><br>
+        </section>
+
+        <form action='/completed-order' method="GET">
+            <button type="submit"> Order History </button><br>
+        </form>
+        <form action='/' method="GET">
+            <button type="submit"> Home </button>
+        </form>
+    </body>
+</html>

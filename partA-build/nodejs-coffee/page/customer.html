@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Customer</title>
+
+        <script src="./js/customer.js" async></script>      <!--Run in the background-->
+        <link rel="stylesheet" href="./css/styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <h2 class="section-header"> KOHI SHOP: MENU DRINKS </h2>
+        <section class="container menu-section">
+            <div class="menu-items">
+                
+            </div>
+        </section>
+
+        <h2 class="section-header"> SHOPPING CART: </h2>
+        <section class="container cart-section"> 
+            <div class="cart-rows-item">
+                
+            </div>
+            <div class="cart-total">
+                <span class="cart-total-title">Total: </span>
+                <span class="cart-total-price">$0.00</span>
+                <button class="btn btn-purchase" type="button">PURCHASE</button>
+            </div>
+        </section><br>
+        
+        <form action='/pending-order' method="GET">
+            <button type="submit"> Pending Order </button><br>
+        </form>
+        <form action='/' method="GET">
+            <button type="submit"> Home </button>
+        </form>
+    </body>
+</html>

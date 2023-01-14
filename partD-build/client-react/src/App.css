@@ -1,0 +1,211 @@
+
+body {
+  background-color: #2b1e12;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/****************************************** CUSTOMER.html *******************************************/
+.section-header {
+  font-size: 56px;
+  color: rgb(231, 216, 173);
+  margin: 30px 50px;
+}
+
+.menu-section {
+  border: 8px solid rgb(204, 164, 112);
+  background-color: rgb(241, 217, 150);
+  margin: auto;
+  width: 85%;
+  padding: 10px;
+  position: relative;
+  border-radius: 10px 60px;
+}
+
+.menu-items {
+  display: flex;
+  margin: 25px 25px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.menu-item {
+  margin: 20px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item-image {
+  border-radius: 35%;
+  width: 170px;
+  height: 175px;
+}
+
+.cart-section {
+  margin: auto;
+  width: 93%;
+  padding: 10px;
+}
+
+.cart-rows-item {
+  margin-bottom: 10px;
+}
+
+.cart-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-item {
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background-color: rgb(231, 217, 179);
+  margin-right: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.cart-item-name {
+  font-size: 20px;
+}
+
+.cart-item-image {
+  margin: 10px 20px;
+  border-radius: 35px;
+  width: 115px;
+  height: 120px;
+}
+
+.cart-item-price {
+  margin: 15px;
+  font-size: 20px;
+}
+
+.cart-total {
+  font-size: 25px;
+  color: rgb(231, 216, 173);
+  bottom: 0px;
+}
+
+/*************************************** PENDING-ORDER.html ****************************************/
+.pending-order-section {
+  font-size: 40px;
+  font-style: italic;
+  color: rgb(231, 216, 173);
+}
+
+.pend-item {
+  margin-bottom: 20px;
+  background-color: rgb(231, 217, 179);
+  width: 50%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.pend-name {
+  margin-left: 15px;
+  margin-right: 30px;
+  color: black;
+  font-size: 25px;
+  font-style: normal;
+}
+
+.pend-image {
+  margin: 10px;
+  border-radius: 35px;
+  width: 115px;
+  height: 120px;
+}
+
+.pend-price {
+  margin-left: 30px;
+  margin-right: 30px;
+  color: black;
+  font-size: 25px;
+  font-style: normal;
+}
+
+.pend-detail {
+  margin: auto;
+}
+
+.pend-total-title {
+  font-size: 33px;
+  font-style: normal;
+}
+
+.pend-total-price {
+  font-size: 33px;
+  font-style: normal;
+}
+
+/***************************************** EMPLOYEE.html ******************************************/
+.list-section {
+  border: 8px solid rgb(204, 164, 112);
+  background-color: rgb(241, 217, 150);
+  margin: auto;
+  width: 85%;
+  padding: 10px;
+  position: relative;
+  border-radius: 10px 60px;
+}
+
+.list-items {
+  display: flex;
+  margin: 25px 25px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.list-item {
+  margin: 20px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.edit-section {
+  margin-left: 40px;
+  margin-top: 40px;
+  font-size: 19px;
+  color: rgb(231, 216, 173);
+}
+
+p {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+/***************************************** ORDERHISTORY.html ******************************************/
+.order-items {
+  border-radius: 15px;
+  background-color: rgb(241, 217, 150);
+  width: 90%;
+  margin: auto;
+  margin-bottom: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.order-item {
+  margin: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.order-image {
+  border-radius: 35px;
+  height: 90px;
+  width: 85px;
+}
+
+.order-detail {
+  font-size: 20px;
+  position: relative;
+}

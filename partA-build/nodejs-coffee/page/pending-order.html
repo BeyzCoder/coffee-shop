@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pending Order</title>
+
+    <script src="./js/pending.js" async></script>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <h2 class="section-header"> KOHI SHOP: PENDING ORDER </h2>
+    <section class="container pending-order-section">
+        <p>Please do not leave the webpage</p>
+        <div class="pend-items">
+            
+        </div>
+        <div class="pend-detail">
+            <span class="pend-total-title">Total: </span>
+            <span class="pend-total-price"></span><br>
+            <progress class="prog-bar" max="60" value="0"></progress><br>
+            <button class="btn cancel-order-button"> Cancel Order </button><br>
+        </div>
+    </section>
+    <br>
+    <form action='/' method="GET">
+        <button type="submit"> Home </button>
+    </form>
+</body>
+</html>
